@@ -61,7 +61,7 @@ export default function Weather() {
           <a
             href="http://github.com/eter-art/weather-app-react"
             target="_blank" rel="noopener noreferrer"
-            >Open-source coded </a  >
+            >Open-source code </a  >
         by Eter Artmeladze 
           </div>
          </div>
