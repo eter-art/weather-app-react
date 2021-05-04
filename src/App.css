@@ -1,38 +1,99 @@
 .App {
+  font-family: "Robo  to Mono", monospace;
+  border: 1px solid gray;
+  padding: 60px 80px;
+  margin: 80px auto;
+  max-width: 700px;
+  border-radius: 40px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: blueviolet;
+}
+h2 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.all {
+  position: relative;
+  left: 150px;
+  color: blue;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.units .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.units .active:hover {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.units {
+  position: relative;
+  top: -20px;
+  font-size: 15px;
+}
+.characters {
+  position: relative;
+  left: 400px;
+  bottom: 100px;
+  font-size: 15px;
+  color: blueviolet;
+}
+li {
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.search-form {
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  margin-bottom: 5px;
+}
+button {
+  position: relative;
+  bottom: 21px;
+  left: 148px;
+}
+.first {
+  margin: 0 0 10 px;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first {
+  margin-top: 15px;
+  color: blueviolet;
+  font-size: 15px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.one i {
+  color: blue;
+  font-size: 30px;
+}
+.one {
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+
+.source-code {
+  position: relative;
+  left: 150px;
+  bottom: 80px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
 }
