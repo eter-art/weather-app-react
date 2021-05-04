@@ -52,18 +52,18 @@ export default function Weather() {
             <li>Humidity: {weatherData.humidity}%</li>
             <li>Wind: {weatherData.wind}km/h</li>
           </ul> 
-          </div> 
-          </div> 
-    
+          
+      </div> 
+       </div> 
+         
  
       <div className="source-code">
           <a
-            href="https://github.com/eter-art/weather-app-react"
-            target="_blank"
+            href="http://github.com/eter-art/weather-app-react"
+            target="_blank" rel="noopener noreferrer"
             >Open-source code</a  >
         by Eter Artmeladze 
           </div>
-          </div> 
-      
+         </div>
          );     
     }
